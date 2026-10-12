@@ -1,0 +1,24 @@
+name: SmoothResize
+version: '1.0.0'
+main: ua.fentez.smoothresize.SmoothResize
+api-version: '1.21'
+author: Fentez
+website: https://fentez.pp.ua
+description: Lightweight plugin for smooth animated player resizing using the scale attribute.
+
+permissions:
+  smoothresize.resize:
+    description: Allows players to change their own size within default limits.
+    default: true
+  smoothresize.resize.extended:
+    description: Allows resizing within extended scale limits.
+    default: op
+  smoothresize.resize.others:
+    description: Allows resizing other players.
+    default: op
+  smoothresize.bypass.cooldown:
+    description: Bypasses the resize command cooldown.
+    default: op
+  smoothresize.reload:
+    description: Allows reloading the plugin configuration.
+    default: op

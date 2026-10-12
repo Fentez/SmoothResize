@@ -1,0 +1,27 @@
+# Prefix displayed before all plugin messages (supports MiniMessage formatting)
+prefix: "<light_purple>[<dark_purple>SmoothResize</dark_purple>]</light_purple> "
+
+# Minimum and maximum scale allowed for regular players (smoothresize.resize)
+default_min_scale: 0.8
+default_max_scale: 1.15
+
+# Minimum and maximum scale allowed for players with extended permission (smoothresize.resize.extended)
+extended_min_scale: 0.0625
+extended_max_scale: 16.0
+
+# Cooldown time in seconds before a player can use the command again
+cooldown_seconds: 30
+
+# Number of animation steps for smooth resizing (higher = smoother and slower, 20 steps = 1 second)
+resize_steps: 20
+
+# Plugin messages (supports MiniMessage color and formatting tags)
+messages:
+  config_reloaded: "<green>Configuration successfully reloaded.</green>"
+  player_not_found: "<red>Player <yellow>%player%</yellow> was not found.</red>"
+  only_player: "<red>Only players can use this command.</red>"
+  invalid_number: "<red>Invalid number format.</red>"
+  usage: "<red>Usage: /resize <scale> [player]</red>"
+  scale_range: "<red>Scale must be between <yellow>%min%</yellow> and <yellow>%max%</yellow>.</red>"
+  cooldown: "<red>Please wait <yellow>%time%</yellow> seconds before resizing again.</red>"
+  resized: "<green>Your scale has been changed to <yellow>%scale%</yellow>.</green>"
